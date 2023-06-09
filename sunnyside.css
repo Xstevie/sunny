@@ -1,0 +1,472 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    top: 2px;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    display: block;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.go{
+display: flex;
+align-items: center;
+}
+
+.head-title{
+    display: flex;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    top:5px;
+    left: 20px;
+}
+
+.head-link{
+    position: absolute;
+    color: rgb(231, 60, 60);
+    top: 40px;
+    right: 20px;
+    align-items: center;
+    text-align: center;
+}
+.head-text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head-text h1{
+    font-size: 70px;
+    font-family: Zona pro, sans-serif;
+}
+
+.head-link a{
+    font-family: 'Zona pro', sans-serif;
+    font-weight: bold;
+    font-size: x-small;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.head-link a:hover{
+    font-family: 'Zona pro', serif;
+    color: rgb(239, 211, 28);
+}
+
+.egg-div{
+    display: flex;
+    width: 100%;
+}
+
+.img-egg{
+    width: 50%;
+}
+
+.text{
+    width: 50%;
+}
+
+p{
+    font-family: 'Zona pro', sans-serif;
+    font-weight:lighter;
+}
+
+h3{
+    color: rgb(29, 30, 29);
+    font-family: 'Zona pro', sans-serif;
+}
+
+.text-form{
+    font-family: 'Zona pro', sans-serif;
+    width: 70%;
+    padding: 10%;
+    margin: auto;
+}
+
+.learnmore{
+    font-size: 30px;
+    font-family: 'Zona pro', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.learnmore a:hover{
+color: rgb(226, 38, 38);
+}
+
+.text-form a{
+    font-family: 'Zona pro', serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.text-form a:hover{
+    border-bottom: 5px double orangered;
+}
+
+.text-form h3{
+    font-family: 'Zona pro', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.img-cup{
+    width: 50%;
+}
+.cup-div{
+    display: flex;
+    width: 100%;
+}
+
+#cherry-tangerine{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: rgba(39, 4, 4, 0.884);
+}
+
+.apple-bg{
+    width: 50%;
+    position: relative;
+}
+
+.tangerine-bg{
+    width: 50%;
+    position: relative;
+}
+
+.apple-text{
+    font-family: 'Zona pro', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.apple-text h4{
+    font-weight: bold;
+    font-family: 'Zona pro', serif;
+    font-size: 25px;
+}
+
+.tangerine-text{
+    font-family: 'Zona pro', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tangerine-text h4{
+    font-family: 'Zona pro', serif;
+    font-size: 25px;
+}
+
+#profile{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#profile h4{
+    font-family: 'Zona pro', serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(225, 100, 17, 0.5);
+}
+
+.clients-profile{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.client-section{
+    font-family: 'Zona pro', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    width: 33.33%;
+    padding: 2%;
+}
+
+.client-info h5{
+    font-family: 'Zona pro', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.client-info p{
+    font-family: 'Zona pro', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.foot-div{
+    width: 100%;
+    display: flex;
+}
+
+.milk-orange{
+    width: 50%;
+    display: flex;
+}
+
+.milk-orange div{
+    width: 50%;
+}
+
+.cone-cube{
+    width: 50%;
+    display: flex;
+}
+
+.cone-cube div{
+    width: 50%;
+}
+
+.footer{
+    color: rgba(23, 1, 1, 0.7);
+    background-color: rgba(144,212,197,255) ;
+    position: absolute;
+    left:5px;
+    right: 5px;
+}
+
+.foot-content{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.foot-link div a{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.foot-link{
+    font-family: Zona pro, sans-serif;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-link a:hover{
+    color: rgb(255, 251, 1);
+}
+
+.footer div h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.foot-icons{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-icons a{
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+@media screen and (max-width: 1060px) {    
+    .head-text h1{
+        font-size: 40px;
+    }
+    
+    .arrow{
+        font-size: 40px;
+    }
+    
+    .text-form{
+        width: 80%;
+        padding: 2%;
+    }
+    
+    .learnmore{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    
+    .text-form h3{
+        font-size: 22px;
+    }
+    
+    .cherry-text{
+        width: 90%;
+        top: 70%;
+    }
+    
+    .tangerine-text{
+        width: 90%;
+        top: 70%;
+    }
+
+    .foot-content{
+        width: 40%;
+    }
+ 
+}
+
+@media screen and (max-width:680px){        
+    .mobile{
+        display: block;
+    }
+    
+    .barIcon{
+        color: white;
+        font-size: 25px;
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+
+    .head-link{
+        display: none;
+        position: absolute;
+        top: 70px;
+        color: black;
+        background-color: white;
+        width: 50%;
+        z-index: 2;
+    }
+
+    .head-link a{
+        display: block;
+        color: rgba(23, 243, 232, 0.5);
+        padding: 10px;
+    }
+
+    .head-links a:hover{
+        width: fit-content;
+        margin: auto;
+        text-transform: uppercase;
+        background-color: rgba(251,214,1,255);
+    }
+    .desktop{
+        display: none;
+    }
+    
+    .head-text h1{
+        font-size: 60px;
+    }
+    
+    .arrow{
+        font-size: 80px;
+    }
+    
+    .egg-div{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    .img-egg{
+        width: 100%;
+    }
+    
+    .text{
+        width: 100%;
+    }
+    
+    .text-form{
+        text-align: center;
+        width: 80%;
+        padding: 15%;
+    }
+
+    .cup-div{
+        flex-direction: column;
+    }
+
+    .img-cup{
+        width: 100%;
+    }
+    
+    #cherry-tangerine{
+        flex-direction: column;
+    }
+    
+    .cherry-bg{
+        width: 100%;
+    }
+    
+    .tangerine-bg{
+        width: 100%;
+    }
+    
+    .cherry-text{
+        width: 80%;
+        font-size: 16px ;
+    }
+    
+    .tangerine-text{
+        width: 80%;
+        font-size: 16px ;
+    }
+    
+    #profile h4{
+        margin-top: 10%;
+    }
+    
+    .clients-profile{
+        flex-direction: column;
+    }
+    
+    .client-section{
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    .foot-div{
+        flex-direction: column;
+    }
+
+    .milk-orange{
+        width: 100%;
+    }
+    
+    .cone-cube{
+        width: 100%;
+    }
+    
+    .foot-content{
+        width: 80%;
+    }
+
+    .footer div h3{
+        font-size: 30px;
+    }
+}
